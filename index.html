@@ -23,9 +23,10 @@
 
 	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 	<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
 </head>
 
-<body class="hidden-bar-wrapper">
+<body>
 
 	<div class="page-wrapper">
 
@@ -35,82 +36,6 @@
 		<!-- Main Header-->
 		<header class="main-header header-style-two">
 
-			<!--Header Top-->
-			<div class="header-top">
-				<div class="auto-container">
-					<div class="clearfix">
-						<!--Top Left-->
-						<div class="top-left">
-							<div class="text">Welcome to Urdhvam</div>
-						</div>
-						<!--Top Right-->
-						<div class="top-right">
-							<!--Social Box-->
-							<ul class="social-box">
-								<li><a href="#"><span class="fa fa-facebook"></span></a></li>
-								<li><a href="#"><span class="fa fa-twitter"></span></a></li>
-								<li><a href="#"><span class="fa fa-google-plus"></span></a></li>
-								<li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-							</ul>
-							<!--Language-->
-
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!--Header-Upper-->
-			<div class="header-upper">
-				<div class="auto-container">
-					<div class="clearfix">
-
-						<div class="pull-left logo-box">
-							<div class="logo"><a href="index.html"><img src="images/newlogo.png" style="height:100px"
-										title=""></a></div>
-						</div>
-
-						<div class="pull-right upper-right clearfix">
-
-							<!--Info Box-->
-							<div class="upper-column info-box">
-								<div class="icon-box"><span class="flaticon-pin"></span></div>
-								<ul>
-									<li>Unit 1 &amp; 2 , Gayatri Apartment, Ground floor, <br> Shri Krishna Nagar, Sagar
-										Co-Op Housing Society,<br> Bavdhan, Pune, 411021, Maharashtra, INDIA.</li>
-								</ul>
-							</div>
-
-							<!--Info Box-->
-							<div class="upper-column info-box">
-								<div class="icon-box"><span class="flaticon-technology-1"></span></div>
-								<ul>
-									<li><a href="tel:919117174040">911717 4040</a> <br> <a
-											href="mailto:info@urdhvam.com">info@urdhvam.com</a></li>
-								</ul>
-							</div>
-
-							<!--Info Box-->
-							<div class="upper-column info-box">
-								<div class="icon-box"><span class="flaticon-clock"></span></div>
-								<ul>
-									<li>10:00am to 6:00pm <br> Sunday Closed</li>
-								</ul>
-							</div>
-
-						</div>
-
-					</div>
-				</div>
-			</div>
-			<!--End Header Upper-->
-
-			<!-- Hidden Nav Toggler -->
-			<div class="nav-toggler">
-				<div class="nav-btn"><button class="hidden-bar-opener"><span class="icon flaticon-menu"></span></button>
-				</div>
-			</div>
-			<!-- / Hidden Nav Toggler -->
-
 			<!--Header Lower-->
 			<div class="header-lower">
 
@@ -118,7 +43,16 @@
 					<div class="nav-outer clearfix">
 						<!-- Main Menu -->
 						<nav class="main-menu navbar-expand-md">
-							<div class="navbar-header">
+							<!-- <div class=""> -->
+							<div class="d-flex justify-content-between align-items-center w-100 navbar-header">
+
+								<!-- Logo Left -->
+								<div class="logo d-block d-md-none">
+									<a href="index.html">
+										<img src="images/newlogo-removebg-preview.png" style="height:70px;" alt=""
+											title="">
+									</a>
+								</div>
 								<!-- Toggle Button -->
 								<button class="navbar-toggler" type="button" data-toggle="collapse"
 									data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -130,37 +64,43 @@
 							</div>
 
 							<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+
+								<div class="logo d-none d-md-block"><a href="index.html"><img
+											src="images/newlogo-removebg-preview.png" style="height:70px;" alt=""
+											title=""></a></div>
+
 								<ul class="navigation clearfix">
-									<li class="current dropdown"><a href="index.html">Home</a>
-
+									<li class="current"><a href="index.html">Home</a>
 									</li>
-									<li class="dropdown"><a href="about.html">About</a>
-
+									<li class=" "><a href="about.html">About</a>
 									</li>
-									<li class="dropdown"><a href="services.html">Services</a>
-
+									<li class=""><a href="services.html">Services</a>
 									</li>
-
-
-
 									<li><a href="contact.html">Contact us</a></li>
+									<li class="mt-2 d-block d-md-none"><button class="btn btn-success m-2"><a
+												class="text-white" href="tel:+919117174040">+91 91 1717
+												4040</a></button></li>
+									<li class="mt-2 d-block d-md-none"><button class="btn btn-primary m-2"><a
+												class="text-white" href="#">Get in touch</a></button></li>
+									<li class="d-none d-md-block">
+										<div style="margin-left: 300px;">
+											<ul class="navigation clearfix">
+
+												<li class="mt-2"><button class="btn btn-success m-2"><a
+															class="text-white" href="tel:+919117174040">+91 91 1717
+															4040</a></button></li>
+												<li class="mt-2"><button class="btn btn-primary m-2"><a
+															class="text-white" href="contact.html">Get in
+															touch</a></button></li>
+											</ul>
+										</div>
+									</li>
 								</ul>
 							</div>
 						</nav>
 
 						<!-- Main Menu End-->
-						<div class="outer-box clearfix">
 
-							<!--Option Box-->
-							<div class="option-box">
-								<!--Cart Box-->
-
-
-								<!--Search Box-->
-
-
-							</div>
-						</div>
 						<div class="side-curve"></div>
 					</div>
 				</div>
@@ -172,7 +112,7 @@
 				<div class="auto-container clearfix">
 					<!--Logo-->
 					<div class="logo pull-left">
-						<a href="index.html" class="img-responsive"><img src="images/newlogo.png" style="height:55px;"
+						<a href="index.html" class="img-responsive"><img src="images/newlogo.png" style="height:70px;"
 								alt="" title=""></a>
 					</div>
 
@@ -190,19 +130,14 @@
 
 							<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent1">
 								<ul class="navigation clearfix">
-									<li class="current dropdown"><a href="index.html">Home</a>
-
-									</li>
-									<li class="dropdown"><a href="about.html">About</a>
-
-									</li>
-									<li class="dropdown"><a href="services.html">Services</a>
-
-									</li>
-
-
-
+									<li class="current"><a href="index.html">Home</a></li>
+									<li class=" "><a href="about.html">About</a></li>
+									<li class=""><a href="services.html">Services</a></li>
 									<li><a href="contact.html">Contact us</a></li>
+									<li class="mt-2"><button class="btn btn-success m-2"><a class="text-white"
+												href="tel:+919117174040">+91 91 1717 4040</a></button></li>
+									<li class="mt-2"><button class="btn btn-primary m-2"><a class="text-white"
+												href="contact.html">Get in touch</a></button></li>
 								</ul>
 							</div>
 						</nav><!-- Main Menu End-->
@@ -215,147 +150,118 @@
 		</header>
 		<!--End Main Header -->
 
-		<!--FullScreen Menu-->
-		<div class="fullscreen-menu">
-			<!--Close Btn-->
-			<div class="close-menu"><span class="flaticon-cancel-1"></span></div>
-
-			<div class="menu-outer-container">
-				<div class="menu-box">
-					<nav class="full-menu">
-						<ul class="navigation">
-							<li class="current dropdown"><a href="index.html">Home</a>
-
-							</li>
-							<li class="dropdown"><a href="about.html">About</a>
-
-							</li>
-							<li class="dropdown"><a href="services.html">Services</a>
-
-							</li>
-
-
-							<li><a href="contact.html">Contact us</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</div><!--End FullScreen Menu-->
 
 		<!--Main Slider-->
 		<section class="main-slider">
 
-	<div class="main-slider-carousel owl-carousel owl-theme">
+			<div class="main-slider-carousel owl-carousel owl-theme">
 
-		<!-- Slide 1 -->
-		<div class="slide" style="background-image:url(images/main-slider/Earth-830x413.webp);">
-			<div class="auto-container">
-				<div class="content clearfix">
-					<div class="title" style="color:rgb(0, 0, 0);">Innovating</div>
-					<h1 style="color:#3868B0;">Future Solutions</h1>
-					<div class="text" style="color:rgb(62, 252, 72);">For a Greener & Healthier Planet</div>
-					<div class="link-box">
-						<a href="about.html" class="theme-btn btn-style-one"><span class="txt">Discover More</span></a>
-						<a href="contact.html" class="theme-btn btn-style-three"><span class="txt">Get in Touch</span></a>
+				<!-- Slide 1 -->
+				<div class="slide" style="background-image:url(images/main-slider/Earth-830x413.webp);">
+					<div class="auto-container">
+						<div class="content clearfix">
+							<div class="title" style="color:rgb(0, 0, 0);">Innovating</div>
+							<h1 style="color:#3868B0;">Future Solutions</h1>
+							<div class="text" style="color:rgb(62, 252, 72);">For a Greener & Healthier Planet</div>
+							<div class="link-box">
+								<a href="about.html" class="theme-btn btn-style-one"><span class="txt">Discover
+										More</span></a>
+								<a href="contact.html" class="theme-btn btn-style-three"><span class="txt">Get in
+										Touch</span></a>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
 
-		<!-- Slide 2 -->
-		<div class="slide" style="background-image:url(images/main-slider/Clean-Water.webp)">
-			<div class="auto-container">
-				<div class="content clearfix">
-					<div class="title" style="color:rgb(255, 255, 255);">Pure Water</div>
-					<h1 style="color:#ffffff;">For Every Community</h1>
-					<div class="text" style="color:rgb(62, 252, 72);">Sustainable Water Management Made Simple</div>
-					<div class="link-box">
-						<a href="about.html" class="theme-btn btn-style-one"><span class="txt">Know More</span></a>
-						<a href="contact.html" class="theme-btn btn-style-three"><span class="txt">Join Us</span></a>
+				<!-- Slide 2 -->
+				<div class="slide" style="background-image:url(images/main-slider/Clean-Water.webp)">
+					<div class="auto-container">
+						<div class="content clearfix">
+							<div class="title" style="color:rgb(255, 255, 255);">Pure Water</div>
+							<h1 style="color:#ffffff;">For Every Community</h1>
+							<div class="text" style="color:rgb(62, 252, 72);">Sustainable Water Management Made Simple
+							</div>
+							<div class="link-box">
+								<a href="about.html" class="theme-btn btn-style-one"><span class="txt">Know
+										More</span></a>
+								<a href="contact.html" class="theme-btn btn-style-three"><span class="txt">Join
+										Us</span></a>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
 
-		<!-- Slide 3 -->
-		<div class="slide" style="background-image:url(images/main-slider/Save-Water.jpg)">
-			<div class="auto-container">
-				<div class="content clearfix">
-					<div class="title" style="color:rgb(255, 255, 255);">Sustainability</div>
-					<h1 style="color:#3868B0;">Starts With Us</h1>
-					<div class="text" style="color:rgb(62, 252, 72);">Together, We Build a Better Tomorrow</div>
-					<div class="link-box">
-						<a href="about.html" class="theme-btn btn-style-one"><span class="txt">Explore</span></a>
-						<a href="contact.html" class="theme-btn btn-style-three"><span class="txt">Reach Out</span></a>
+				<!-- Slide 3 -->
+				<div class="slide" style="background-image:url(images/main-slider/Save-Water.jpg)">
+					<div class="auto-container">
+						<div class="content clearfix">
+							<div class="title" style="color:rgb(255, 255, 255);">Sustainability</div>
+							<h1 style="color:#ffffff;">Starts With Us</h1>
+							<div class="text" style="color:rgb(62, 252, 72);">Together, We Build a Better Tomorrow</div>
+							<div class="link-box">
+								<a href="about.html" class="theme-btn btn-style-one"><span
+										class="txt">Explore</span></a>
+								<a href="contact.html" class="theme-btn btn-style-three"><span class="txt">Reach
+										Out</span></a>
+							</div>
+						</div>
 					</div>
 				</div>
+
 			</div>
-		</div>
-
-	</div>
-</section>
-
+		</section>
 		<!--End Main Slider-->
 
-		<!--About Section-->
-		<section class="about-section-two">
-			<div class="auto-container">
-				<div class="row clearfix">
-					<!--Column-->
-					<div class="column col-lg-7 col-md-12 col-sm-12">
-						<div class="about-content-box">
-							<div class="sec-title">
-								<h2>About Us</h2>
+		<!-- About Section -->
+		<section class="about-section py-5">
+			<div class="container">
+				<div class="row align-items-center g-4">
+
+					<!-- Right Column (Image - show first on mobile) -->
+					<div class="col-lg-5 col-md-12 text-center order-1 order-lg-2">
+						<img src="images/resource/Who-are-us-500x413.png" alt="About Us"
+							class="img-fluid rounded shadow-sm">
+					</div>
+
+					<!-- Left Column (Content - show after image on mobile) -->
+					<div class="col-lg-7 col-md-12 order-2 order-lg-1">
+
+						<div class="sec-title centered mb-5 mt-4">
+							<h2 class="font-weight-bold text-dark">About Us</h2>
+
+						</div>
+						<h4 class="mb-3">
+							<span class="font-weight-bold text-info display-3">30+</span> years of excellence
+						</h4>
+						<p class="mb-4">
+							Urdhvam is a Pune-based environmental technology company offering
+							sustainable solutions for India’s water crisis.
+						</p>
+
+						<div class="row g-4">
+							<!-- Mission -->
+							<div class="col-md-6">
+								<h5 class="font-weight-bold text-dark">Our Mission</h5>
+								<p class="mb-0">
+									To develop innovative, cost-effective, and scalable products to improve groundwater
+									sustainability.
+								</p>
 							</div>
-							<h4><span class="number">30</span>years of excelence</h4>
-							<div class="text">Urdhvam is a Pune-based environmental technology company offering
-								sustainable solutions for India’s water crisis.</div>
-							<!--Awards-->
-							<div class="awards">
-								<div class="row clearfix">
-									<!--Award Box-->
-									<div class="column col-lg-6 col-md-6 col-sm-6 col-xs-12">
-										<div class="award-box wow fadeIn" data-wow-delay="0ms"
-											data-wow-duration="1500ms">
-											<div style="padding-left: 0;">
-
-												<div class="award-name">Our Mission</div>
-												<p>To develop innovative, cost-effective, and scalable products to
-													improve groundwater sustainability.</p>
-											</div>
-										</div>
-									</div>
-									<!--Award Box-->
-									<div class="column col-lg-6 col-md-6 col-sm-6 col-xs-12">
-										<div class="award-box wow fadeIn" data-wow-delay="300ms"
-											data-wow-duration="1500ms">
-											<div style="padding-left: 0;">
-												<div class="award-name">Our Vision</div>
-												<p>To build a climate-resilient and secure world through sustainability,
-													innovation, and excellence.</p>
-											</div>
-										</div>
-									</div>
-									<!--Award Box-->
-
-
-								</div>
+							<!-- Vision -->
+							<div class="col-md-6">
+								<h5 class="font-weight-bold text-dark">Our Vision</h5>
+								<p class="mb-0">
+									To build a climate-resilient and secure world through sustainability, innovation,
+									and excellence.
+								</p>
 							</div>
-
 						</div>
 					</div>
 
-					<!--Column-->
-					<div class="column col-lg-5 col-md-12 col-sm-12">
-						<div class="image-box">
-							<figure class="image">
-								<img src="images/resource/Who-are-us-500x413.png" alt="" />
-							</figure>
-						</div>
-					</div>
 				</div>
 			</div>
 		</section>
+		<!-- End About Section -->
 
 		<!--Fluid Section One-->
 		<section class="fluid-section-one">
@@ -424,56 +330,60 @@
 		</section>
 
 		<!--Fun Facts Section-->
-		<div class="fact-counter-section">
-			<div class="fact-counter">
-				<div class="auto-container">
-					<div class="row clearfix">
+<div class="fact-counter-section">
+    <div class="fact-counter">
+        <div class="auto-container">
+            <div class="row clearfix">
 
-						<!--Column-->
-						<div class="column counter-column col-lg-3 col-md-6 col-sm-12">
-							<div class="inner">
-								<div class="count-outer count-box">
-									<span class="count-text" data-speed="2000" data-stop="500">500</span>+
-									<h5 class="counter-title">Projects</h5>
-								</div>
-							</div>
-						</div>
+                <!--Column-->
+                <div class="column counter-column col-6 col-sm-6 col-md-3 col-lg-3">
+                    <div class="inner">
+                        <div class="count-outer count-box">
+                            <span class="count-text" data-speed="2000" data-stop="500">500</span>+
+                            <h5 class="counter-title">Projects</h5>
+                        </div>
+                    </div>
+                </div>
 
-						<!--Column-->
-						<div class="column counter-column col-lg-3 col-md-6 col-sm-12">
-							<div class="inner">
-								<div class="count-outer count-box">
-									<span class="count-text" data-speed="3500" data-stop="12">12</span>+
-									<h5 class="counter-title">Operating In States</h5>
-								</div>
-							</div>
-						</div>
+                <!--Column-->
+                <div class="column counter-column col-6 col-sm-6 col-md-3 col-lg-3">
+                    <div class="inner">
+                        <div class="count-outer count-box">
+                            <span class="count-text" data-speed="3500" data-stop="12">12</span>+
+                            <h5 class="counter-title">Operating In States</h5>
+                        </div>
+                    </div>
+                </div>
 
-						<!--Column-->
-						<div class="column counter-column col-lg-3 col-md-6 col-sm-12">
-							<div class="inner">
-								<div class="count-outer count-box">
-									<span class="count-text" data-speed="2000" data-stop="70">0</span>
-									<h5 class="counter-title">New Projects</h5>
-								</div>
-							</div>
-						</div>
+                <!--Column-->
+                <div class="column counter-column col-6 col-sm-6 col-md-3 col-lg-3">
+                    <div class="inner">
+                        <div class="count-outer count-box">
+                            <span class="count-text" data-speed="2000" data-stop="70">0</span>
+                            <h5 class="counter-title">New Projects</h5>
+                        </div>
+                    </div>
+                </div>
 
-						<!--Column-->
-						<div class="column counter-column col-lg-3 col-md-6 col-sm-12">
-							<div class="inner">
-								<div class="count-outer count-box">
-									<span class="count-text" data-speed="2000" data-stop="100000">0</span>+
-									<h5 class="counter-title">crore liters of water saved and counting.</h5>
-								</div>
-							</div>
-						</div>
+                <!--Column-->
+                <div class="column counter-column col-6 col-sm-6 col-md-3 col-lg-3">
+                    <div class="inner">
+                        <div class="count-outer count-box">
+                            <span class="count-text" data-speed="2000" data-stop="100000">0</span>+
+                            <h5 class="counter-title">crore liters of water saved and counting.</h5>
+                        </div>
+                    </div>
+                </div>
 
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--End Fun Facts Section-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--End Fun Facts Section-->
+
+
+		<!--Incubated By Section-->
 		<section class="case-section">
 			<div class="container container1">
 				<div class="auto-container">
@@ -517,10 +427,8 @@
 			</div>
 
 		</section>
+		<!-- End Incubated By Section-->
 
-
-
-		<!--Team Section-->
 		<!-- Team Section -->
 		<section class="team-section py-5 bg-light">
 			<div class="auto-container">
@@ -582,289 +490,295 @@
 				</div>
 			</div>
 		</section>
-
-
-
 		<!-- End Team Section -->
 
+		<section class="case-section py-5 bg-light">
+			<div class="container">
 
-		<!--Sponsors Section-->
-	<section class="case-section py-5 bg-light">
-  <div class="container">
-    <div class="sec-title text-center mb-4">
-      <h2>Our Clients</h2>
-    </div>
-    <div class="row text-center">
-      <!-- Client logos 1 through 86 -->
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/1.png" class="img-fluid" alt="Client 1">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/2.png" class="img-fluid" alt="Client 2">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/3.png" class="img-fluid" alt="Client 3">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/4.png" class="img-fluid" alt="Client 4">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/5.png" class="img-fluid" alt="Client 5">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/6.png" class="img-fluid" alt="Client 6">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/7.png" class="img-fluid" alt="Client 7">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/8.png" class="img-fluid" alt="Client 8">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/9.png" class="img-fluid" alt="Client 9">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/10.png" class="img-fluid" alt="Client 10">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/11.png" class="img-fluid" alt="Client 11">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/12.png" class="img-fluid" alt="Client 12">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/13.png" class="img-fluid" alt="Client 13">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/14.png" class="img-fluid" alt="Client 14">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/15.png" class="img-fluid" alt="Client 15">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/16.png" class="img-fluid" alt="Client 16">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/17.png" class="img-fluid" alt="Client 17">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/18.png" class="img-fluid" alt="Client 18">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/19.png" class="img-fluid" alt="Client 19">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/20.png" class="img-fluid" alt="Client 20">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/21.png" class="img-fluid" alt="Client 21">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/22.png" class="img-fluid" alt="Client 22">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/23.png" class="img-fluid" alt="Client 23">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/24.png" class="img-fluid" alt="Client 24">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/25.png" class="img-fluid" alt="Client 25">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/26.png" class="img-fluid" alt="Client 26">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/27.png" class="img-fluid" alt="Client 27">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/28.png" class="img-fluid" alt="Client 28">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/29.png" class="img-fluid" alt="Client 29">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/30.png" class="img-fluid" alt="Client 30">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/31.png" class="img-fluid" alt="Client 31">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/32.png" class="img-fluid" alt="Client 32">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/33.png" class="img-fluid" alt="Client 33">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/34.png" class="img-fluid" alt="Client 34">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/35.png" class="img-fluid" alt="Client 35">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/36.png" class="img-fluid" alt="Client 36">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/37.png" class="img-fluid" alt="Client 37">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/38.png" class="img-fluid" alt="Client 38">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/39.png" class="img-fluid" alt="Client 39">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/40.png" class="img-fluid" alt="Client 40">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/41.png" class="img-fluid" alt="Client 41">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/42.png" class="img-fluid" alt="Client 42">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/43.png" class="img-fluid" alt="Client 43">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/44.png" class="img-fluid" alt="Client 44">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/45.png" class="img-fluid" alt="Client 45">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/46.png" class="img-fluid" alt="Client 46">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/47.png" class="img-fluid" alt="Client 47">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/48.png" class="img-fluid" alt="Client 48">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/49.png" class="img-fluid" alt="Client 49">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/50.png" class="img-fluid" alt="Client 50">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/51.png" class="img-fluid" alt="Client 51">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/52.png" class="img-fluid" alt="Client 52">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/53.png" class="img-fluid" alt="Client 53">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/54.png" class="img-fluid" alt="Client 54">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/55.png" class="img-fluid" alt="Client 55">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/56.png" class="img-fluid" alt="Client 56">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/57.png" class="img-fluid" alt="Client 57">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/58.png" class="img-fluid" alt="Client 58">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/59.png" class="img-fluid" alt="Client 59">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/60.png" class="img-fluid" alt="Client 60">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/61.png" class="img-fluid" alt="Client 61">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/62.png" class="img-fluid" alt="Client 62">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/63.png" class="img-fluid" alt="Client 63">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/64.png" class="img-fluid" alt="Client 64">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/65.png" class="img-fluid" alt="Client 65">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/66.png" class="img-fluid" alt="Client 66">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/67.png" class="img-fluid" alt="Client 67">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/68.png" class="img-fluid" alt="Client 68">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/69.png" class="img-fluid" alt="Client 69">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/70.png" class="img-fluid" alt="Client 70">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/71.png" class="img-fluid" alt="Client 71">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/72.png" class="img-fluid" alt="Client 72">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/73.png" class="img-fluid" alt="Client 73">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/74.png" class="img-fluid" alt="Client 74">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/75.png" class="img-fluid" alt="Client 75">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/76.png" class="img-fluid" alt="Client 76">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/77.png" class="img-fluid" alt="Client 77">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/78.png" class="img-fluid" alt="Client 78">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/79.png" class="img-fluid" alt="Client 79">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/80.png" class="img-fluid" alt="Client 80">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/81.png" class="img-fluid" alt="Client 81">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/82.png" class="img-fluid" alt="Client 82">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/83.png" class="img-fluid" alt="Client 83">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/84.png" class="img-fluid" alt="Client 84">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/85.png" class="img-fluid" alt="Client 85">
-      </div>
-      <div class="col-2 col-md-1 mb-3">
-        <img src="images/clients/86.png" class="img-fluid" alt="Client 86">
-      </div>
-    </div>
-  </div>
-</section>
+				<div class="sec-title centered mb-5">
+					<h2 class="font-weight-bold text-dark">Our Clients</h2>
+				</div>
+
+				<div class="row text-center">
+					<!-- Client logos 1 to 12 (always visible) -->
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/3.png" class="img-fluid" alt="Client 1">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/6.png" class="img-fluid" alt="Client 2">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/8.png" class="img-fluid" alt="Client 3">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/14.png" class="img-fluid" alt="Client 4">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/20.png" class="img-fluid" alt="Client 5">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/28.png" class="img-fluid" alt="Client 6">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/31.png" class="img-fluid" alt="Client 7">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/39.png" class="img-fluid" alt="Client 8">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/40.png" class="img-fluid" alt="Client 9">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/65.png" class="img-fluid" alt="Client 10">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/67.png" class="img-fluid" alt="Client 11">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/85.png" class="img-fluid" alt="Client 12">
+					</div>
+				</div>
+				<!-- Hidden logos (13 to 86) -->
+				<div class="row text-center d-none" id="moreClients">
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/13.png" class="img-fluid" alt="Client 13">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/1.png" class="img-fluid" alt="Client 14">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/15.png" class="img-fluid" alt="Client 15">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/16.png" class="img-fluid" alt="Client 16">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/17.png" class="img-fluid" alt="Client 17">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/18.png" class="img-fluid" alt="Client 18">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/19.png" class="img-fluid" alt="Client 19">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/2.png" class="img-fluid" alt="Client 20">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/21.png" class="img-fluid" alt="Client 21">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/22.png" class="img-fluid" alt="Client 22">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/23.png" class="img-fluid" alt="Client 23">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/24.png" class="img-fluid" alt="Client 24">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/25.png" class="img-fluid" alt="Client 25">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/26.png" class="img-fluid" alt="Client 26">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/27.png" class="img-fluid" alt="Client 27">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/3.png" class="img-fluid" alt="Client 28">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/29.png" class="img-fluid" alt="Client 29">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/30.png" class="img-fluid" alt="Client 30">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/4.png" class="img-fluid" alt="Client 31">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/32.png" class="img-fluid" alt="Client 32">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/33.png" class="img-fluid" alt="Client 33">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/34.png" class="img-fluid" alt="Client 34">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/35.png" class="img-fluid" alt="Client 35">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/36.png" class="img-fluid" alt="Client 36">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/37.png" class="img-fluid" alt="Client 37">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/38.png" class="img-fluid" alt="Client 38">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/1.png" class="img-fluid" alt="Client 39">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/6.png" class="img-fluid" alt="Client 40">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/41.png" class="img-fluid" alt="Client 41">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/42.png" class="img-fluid" alt="Client 42">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/43.png" class="img-fluid" alt="Client 43">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/44.png" class="img-fluid" alt="Client 44">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/45.png" class="img-fluid" alt="Client 45">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/46.png" class="img-fluid" alt="Client 46">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/47.png" class="img-fluid" alt="Client 47">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/48.png" class="img-fluid" alt="Client 48">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/49.png" class="img-fluid" alt="Client 49">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/50.png" class="img-fluid" alt="Client 50">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/51.png" class="img-fluid" alt="Client 51">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/52.png" class="img-fluid" alt="Client 52">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/53.png" class="img-fluid" alt="Client 53">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/54.png" class="img-fluid" alt="Client 54">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/55.png" class="img-fluid" alt="Client 55">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/56.png" class="img-fluid" alt="Client 56">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/57.png" class="img-fluid" alt="Client 57">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/58.png" class="img-fluid" alt="Client 58">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/59.png" class="img-fluid" alt="Client 59">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/60.png" class="img-fluid" alt="Client 60">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/61.png" class="img-fluid" alt="Client 61">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/62.png" class="img-fluid" alt="Client 62">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/63.png" class="img-fluid" alt="Client 63">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/64.png" class="img-fluid" alt="Client 64">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/7.png" class="img-fluid" alt="Client 65">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/66.png" class="img-fluid" alt="Client 66">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/8.png" class="img-fluid" alt="Client 67">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/68.png" class="img-fluid" alt="Client 68">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/69.png" class="img-fluid" alt="Client 69">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/70.png" class="img-fluid" alt="Client 70">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/71.png" class="img-fluid" alt="Client 71">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/72.png" class="img-fluid" alt="Client 72">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/73.png" class="img-fluid" alt="Client 73">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/74.png" class="img-fluid" alt="Client 74">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/75.png" class="img-fluid" alt="Client 75">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/76.png" class="img-fluid" alt="Client 76">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/77.png" class="img-fluid" alt="Client 77">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/78.png" class="img-fluid" alt="Client 78">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/79.png" class="img-fluid" alt="Client 79">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/80.png" class="img-fluid" alt="Client 80">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/81.png" class="img-fluid" alt="Client 81">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/82.png" class="img-fluid" alt="Client 82">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/83.png" class="img-fluid" alt="Client 83">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/84.png" class="img-fluid" alt="Client 84">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/9.png" class="img-fluid" alt="Client 85">
+					</div>
+					<div class="col-4 col-md-2 mb-3">
+						<img src="images/clients/86.png" class="img-fluid" alt="Client 86">
+					</div>
+				</div>
+
+				<!-- View More button -->
+				<div class="text-center mt-4">
+					<button class="btn btn-primary" id="viewMoreBtn">View More</button>
+				</div>
+
+			</div>
+		</section>
 		<!--End Sponsors Section-->
 
 		<!--News Section-->
-		<section class="news-section">
+		<section class=" case-section news-section">
 			<div class="auto-container">
 				<!--Sec Title-->
 				<div class="sec-title centered">
-					<h2>Recognitiona & Awards</h2>
+					<h2>Recognition &amp; Awards</h2>
 				</div>
 
 				<div class="row clearfix">
@@ -899,68 +813,77 @@
 		</section>
 		<!--End News Section-->
 
-		<!--End Default Section-->
+		<!-- Map Info Section -->
+		<section class="map-info-section py-5">
+			<div class="container-fluid">
+				<div class="row g-0 align-items-stretch">
 
-		<!--Map Info Section-->
-		<section class="map-info-section">
-			<div class="outer-container">
-				<div class="clearfix">
-					<!--Left Column-->
-					<div class="left-column">
-						<!--Map Outer-->
-						<div class="map-outer">
-							<!--Map Canvas-->
-							<div class="map-canvas" data-zoom="12" data-lat="-37.817085" data-lng="144.955631"
-								data-type="roadmap" data-hue="#ffc400" data-title="Envato"
-								data-icon-path="images/icons/map-marker.png"
-								data-content="Melbourne VIC 3000, Australia<br><a href='mailto:info@youremail.com'>info@youremail.com</a>">
-							</div>
-						</div>
+					<!-- Left Column (Map) -->
+					<div class="col-lg-6 col-md-12">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d389.77967996808644!2d73.78250170000001!3d18.5169511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2becdb43dbad3%3A0xa80a8362c05fe994!2sUrdhvam%20Environmental%20Technologies%20Pvt%20Ltd!5e1!3m2!1sen!2sin!4v1755836281712!5m2!1sen!2sin"
+							class="w-100 h-100" style="min-height: 400px; border:0;" allowfullscreen="" loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
-					<!--Right Column-->
-					<div class="right-column" style="background-image:url(images/resource/image-1.jpg)">
-						<div class="content">
-							<h3>Request for quote</h3>
-							<div class="text">The argument in favor of using filler text goes something like this: If
-								you use real content in the design process.</div>
 
-							<!-- Quote Form -->
-							<div class="quote-form">
+					<!-- Right Column (Form) -->
+					<!-- Right Column (Form) -->
+					<div class="col-lg-6 col-md-12 d-flex align-items-center p-4 bg-light">
+						<div class="card w-100 shadow-sm border-0">
+							<div class="card-body p-4">
+								<h3 class="card-title mb-3">Request for Quote</h3>
+								<p class="card-text mb-4">
+									The argument in favor of using filler text goes something like this: If you use real
+									content in the design process.
+								</p>
 
-								<!--Contact Form-->
-								<form method="post" action="contact.html">
-									<div class="row clearfix">
+								<form method="post" action="contact.html" class="vstack gap-3">
 
-										<div class="form-group col-lg-6 col-md-6 col-sm-12">
-											<input type="text" name="username" placeholder="How to assist you:*"
-												required>
-										</div>
-
-										<div class="form-group col-lg-6 col-md-6 col-sm-12">
-											<input type="text" name="phone" placeholder="Phone number:*" required>
-										</div>
-
-										<div class="form-group col-lg-6 col-md-6 col-sm-12">
-											<input type="text" name="text" placeholder="Your name:*" required>
-										</div>
-
-										<div class="form-group col-lg-6 col-md-6 col-sm-12">
-											<button type="submit" class="theme-btn btn-style-one"><span
-													class="txt">Submit request</span> <span
-													class="icon flaticon-share-option"></span></button>
-										</div>
-
+									<!-- Name -->
+									<div>
+										<label for="name" class="form-label fw-bold">
+											Your Name <span class="text-danger">*</span>
+										</label>
+										<input type="text" name="text" id="name" class="form-control p-2"
+											placeholder="Enter your name" required>
 									</div>
+
+									<!-- Phone Number -->
+									<div>
+										<label for="phone" class="form-label fw-bold">
+											Phone Number <span class="text-danger">*</span>
+										</label>
+										<input type="text" name="phone" id="phone" class="form-control p-2"
+											placeholder="Enter phone number" required>
+									</div>
+
+									<!-- How to Assist -->
+									<div>
+										<label for="assist" class="form-label fw-bold">
+											How can we assist you <span class="text-danger">*</span>
+										</label>
+										<textarea name="username" id="assist" rows="3" class="form-control p-2"
+											placeholder="Type your request" required></textarea>
+									</div>
+
+									<!-- Submit -->
+									<div class="text-center mt-3">
+										<button type="submit" class="btn btn-primary px-5 py-2">
+											Submit Request <i class="ms-2 bi bi-send"></i>
+										</button>
+									</div>
+
 								</form>
 							</div>
-
 						</div>
 					</div>
+
+
 
 				</div>
 			</div>
 		</section>
-		<!--End Map Info Section-->
+		<!-- End Map Info Section -->
 
 		<!--Subscribe Style One-->
 		<section class="subscribe-style-one">
@@ -1041,7 +964,9 @@
 								<div class="inner">
 									<div class="icon flaticon-pin"></div>
 									<h6>Address</h6>
-									<div class="text">185, Industry Street, Los Angeles, USA.</div>
+									<div class="text">Unit 1 & 2 , Gayatri Apartment, Ground floor,
+										Shri Krishna Nagar, Sagar Co-Op Housing Society,
+										Bavdhan, Pune, 411021, Maharashtra, INDIA.</div>
 								</div>
 							</div>
 
@@ -1091,6 +1016,7 @@
 
 			</footer>
 		</div>
+		<!-- End Main Footer-->
 
 	</div>
 	<!--End pagewrapper-->
@@ -1196,6 +1122,18 @@
 				rightSlider.style.transform = `translateX(${rightPosition}px)`;
 			}, 15);
 		};
+	</script>
+	<script>
+		document.getElementById("viewMoreBtn").addEventListener("click", function () {
+			const moreClients = document.getElementById("moreClients");
+			if (moreClients.classList.contains("d-none")) {
+				moreClients.classList.remove("d-none");
+				this.textContent = "View Less";
+			} else {
+				moreClients.classList.add("d-none");
+				this.textContent = "View More";
+			}
+		});
 	</script>
 </body>
 
