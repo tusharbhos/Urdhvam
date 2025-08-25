@@ -2082,7 +2082,8 @@ img {
 .services-block .inner-box:hover .content .image-layer {
 	opacity: 1;
 	visibility: visible;
-	transform: rotateX(0deg) -moz-transform:rotateX(0deg);
+	transform: rotateX(0deg);
+	 -moz-transform:rotateX(0deg);
 	-webkit-transform: rotateX(0deg);
 	-ms-transform: rotateX(0deg);
 	-o-transform: rotateX(0deg);
@@ -9156,7 +9157,7 @@ img {
 
 .rtl .services-block-two .inner-box .lower-box .icon-box {
 	right: 0px;
-	top0px;
+	top: 0px;
 	left: auto;
 }
 
