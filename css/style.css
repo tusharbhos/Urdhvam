@@ -1980,7 +1980,7 @@ img {
 	position: relative;
 	z-index: 9;
 	background-color: #ffffff;
-	padding: 95px 0px 85px;
+	padding: 20px 0px 5px;
 }
 
 .services-section .title-box {
@@ -2083,7 +2083,7 @@ img {
 	opacity: 1;
 	visibility: visible;
 	transform: rotateX(0deg);
-	 -moz-transform:rotateX(0deg);
+	-moz-transform: rotateX(0deg);
 	-webkit-transform: rotateX(0deg);
 	-ms-transform: rotateX(0deg);
 	-o-transform: rotateX(0deg);
@@ -2333,7 +2333,7 @@ img {
 
 .case-section {
 	position: relative;
-	padding: 50px 0px 50px;
+	padding: 20px 0px 5px;
 	background-color: #f5f5f5;
 }
 
@@ -2545,7 +2545,7 @@ img {
 
 .team-section {
 	position: relative;
-	padding: 95px 0px 65px;
+	padding: 20px 0px 5px;
 }
 
 .team-member {
@@ -2678,7 +2678,7 @@ img {
 .sponsors-section {
 	position: relative;
 	z-index: 9;
-	padding: 90px 0px 90px;
+	padding: 20px 0px 5px;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -2741,7 +2741,8 @@ img {
 
 .news-section {
 	position: relative;
-	padding: 95px 0px 75px;
+	padding: 20px 0px 5px;
+
 }
 
 .news-block {
@@ -2918,7 +2919,7 @@ img {
 .default-section {
 	position: relative;
 	z-index: 9;
-	padding: 95px 0px 70px;
+	padding: 20px 0px 5px;
 	background-color: #f5f5f5;
 }
 
@@ -3504,7 +3505,8 @@ img {
 
 .about-section {
 	position: relative;
-	padding: 85px 0px 65px;
+	padding: 20px 0px 5px;
+
 }
 
 .about-section .content-column {
@@ -3619,7 +3621,7 @@ img {
 .price-section {
 	position: relative;
 	z-index: 9;
-	padding: 95px 0px 75px;
+	padding: 20px 0px 5px;
 	background-color: #f5f5f5;
 }
 
@@ -4030,7 +4032,7 @@ img {
 	position: relative;
 	z-index: 9;
 	background-color: #ffffff;
-	padding: 95px 0px 95px;
+	padding: 20px 0px 5px;
 }
 
 .faq-section .auto-container {
@@ -5082,7 +5084,7 @@ img {
 	position: relative;
 	z-index: 9;
 	background-color: #ffffff;
-	padding: 80px 0px 70px;
+	padding: 20px 0px 5px;
 }
 
 .contact-page-section .form-column {
@@ -7764,7 +7766,7 @@ img {
 
 .contact-section {
 	position: relative;
-	padding: 80px 0px 50px;
+	padding: 20px 0px 5px;
 }
 
 .contact-section .sec-title {
@@ -8622,7 +8624,7 @@ img {
 
 .gallery-section {
 	position: relative;
-	padding: 95px 0px 95px;
+	padding: 20px 0px 5px;
 }
 
 .gallery-section .filters {
@@ -9870,8 +9872,9 @@ body.visible-menu-bar .fullscreen-menu {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 45px;
-	height: 45px;
+	width: 30px;
+    height: 30px;
+    margin: 2px;
 	border-radius: 50%;
 	background: #f1f1f1;
 	color: #333;
@@ -9923,6 +9926,7 @@ body.visible-menu-bar .fullscreen-menu {
 	background-color: #007bff;
 	/* Bootstrap Blue */
 }
+
 .social-sidebar1 {
 	position: fixed;
 	top: 50%;
@@ -9944,14 +9948,16 @@ body.visible-menu-bar .fullscreen-menu {
 	width: auto;
 	padding: 6px 8px;
 	transition: all 0.3s ease;
-	color: #ffffff; /* White icons */
+	color: #ffffff;
+	/* White icons */
 }
 
 .social-icon1 i {
 	margin-right: 10px;
 	min-width: 20px;
 	text-align: center;
-	color: #ffffff; /* White icons always */
+	color: #ffffff;
+	/* White icons always */
 }
 
 .social-icon1 span {
@@ -9959,14 +9965,16 @@ body.visible-menu-bar .fullscreen-menu {
 	opacity: 0;
 	max-width: 0;
 	transition: all 0.3s ease;
-	color: #ffffff; /* White text */
+	color: #ffffff;
+	/* White text */
 }
 
 .social-icon1:hover span {
 	opacity: 1;
 	max-width: 120px;
 	margin-left: 5px;
-	color: #ffffff; /* Text white on hover */
+	color: #ffffff;
+	/* Text white on hover */
 }
 
 /* Individual Gradient Backgrounds */
@@ -9985,4 +9993,36 @@ body.visible-menu-bar .fullscreen-menu {
 /* Common class */
 .last1 {
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+/* ✅ Default: Extra Large Screens (≥1200px) */
+.custom-nav-wrapper {
+  margin-left: 300px; 
+}
+
+/* ✅ Large Devices (Desktops, 992px–1199px) */
+@media (max-width: 1199px) {
+  .custom-nav-wrapper {
+    margin-left: 127px;
+  }
+}
+
+/* ✅ Medium Devices (Tablets, 768px–991px) */
+@media (max-width: 991px) {
+  .custom-nav-wrapper {
+    margin-left: 50px;
+  }
+}
+
+/* ✅ Small Devices (Landscape Phones, 576px–767px) */
+@media (max-width: 767px) {
+  .custom-nav-wrapper {
+    margin-left: 30px;
+  }
+}
+
+/* ✅ Extra Small Devices (Phones, <576px) */
+@media (max-width: 575px) {
+  .custom-nav-wrapper {
+    margin-left: 15px;
+  }
 }
