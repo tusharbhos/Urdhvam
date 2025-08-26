@@ -10026,3 +10026,15 @@ body.visible-menu-bar .fullscreen-menu {
     margin-left: 15px;
   }
 }
+.images {
+  width: 100%;
+  height: 200px; /* box height control kar */
+  overflow: hidden;
+}
+
+.images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Proper fit without distortion */
+  border-radius: 5px; /* optional */
+}
