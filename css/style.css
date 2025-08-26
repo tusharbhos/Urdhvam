@@ -9874,11 +9874,11 @@ body.visible-menu-bar .fullscreen-menu {
 	justify-content: center;
 	width: 30px;
     height: 30px;
-    margin: 2px;
+    margin: 5px;
 	border-radius: 50%;
 	background: #f1f1f1;
 	color: #333;
-	font-size: 18px;
+	font-size: 17px;
 	transition: all 0.3s ease;
 	text-decoration: none;
 }
